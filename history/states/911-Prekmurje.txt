@@ -1,0 +1,27 @@
+state=
+{
+	id=911
+	name="Prekmurje"
+	manpower = 421250
+	
+	state_category = large_town
+	
+	history =
+	{
+		owner = HUN
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			665 1
+		}
+		add_core_of = AUS
+		add_core_of = HUN
+		add_core_of = SLV
+	}
+	provinces={
+		665 6672
+	}
+	
+	local_supplies=0.0 
+}

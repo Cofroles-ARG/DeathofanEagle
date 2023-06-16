@@ -1,0 +1,25 @@
+state={
+	id=922
+	name="Zhaotong"
+
+	history={
+		owner = YUN
+		add_core_of = YUN
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		4192 12841 5072
+	}
+	manpower=211488
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=2.0 
+}

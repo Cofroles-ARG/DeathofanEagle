@@ -1,0 +1,36 @@
+
+state={
+	id=914
+	name="Kars"
+	manpower = 131129
+	
+	state_category = town
+
+	history={
+		owner = SOV
+		
+		victory_points = {
+			9932 15
+		}
+		victory_points = {
+			10472 5
+		}
+		victory_points = {
+			3979 3 
+		}
+		buildings = {
+			infrastructure = 2
+			9932 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = TUR
+		add_core_of = SOV
+	}
+
+	provinces={
+		10472 10403 7454 11753 789 6991
+	}
+
+	local_supplies=0.0 
+}

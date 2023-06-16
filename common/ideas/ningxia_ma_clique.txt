@@ -1,0 +1,23 @@
+ideas = {
+	country = {
+
+		kuomintang_loyal = {
+
+			picture = Kuomintang
+	
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_advisor_cost_factor = -0.5
+				political_power_gain = 0.3
+		}
+	}
+}

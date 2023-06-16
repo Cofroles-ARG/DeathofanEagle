@@ -1,0 +1,25 @@
+state={
+	id=927
+	name="Western Macedonia"
+
+	history={
+		owner = BYZ
+		add_core_of = BYZ
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		974 11856 833 3865 3882 867
+	}
+	manpower=211488
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=2.0 
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=912
+	name="La Pampa" # Pampas
+	manpower = 2596366
+	
+	state_category = large_city
+
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 2
+			industrial_complex = 5
+			dockyard = 1
+			air_base = 4
+			12364 = {
+				naval_base = 7
+				bunker = 1
+				coastal_bunker = 1
+			}
+			7621 = {
+				naval_base = 2
+			}
+			1639 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ARG
+
+	}
+
+	provinces={
+		7550 12998 10935 2149 12321 12494
+	}
+
+	local_supplies=0.0 
+}

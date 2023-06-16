@@ -1,0 +1,45 @@
+ideas = {
+	country = {
+
+		RCH_japans_bitch = {
+
+			picture = RCH_japans_bitch
+	
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.3
+				stability_factor = -0.4
+			}
+		}
+
+		RCH_shit_army = {
+
+			picture = RCH_shit_army
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = -0.2
+				army_attack_factor = -0.3
+				army_defence_factor = -0.3
+				mobilization_speed = -0.3
+			}
+		}
+	}

@@ -1,0 +1,24 @@
+
+state={
+	id=917
+	name="German Sahara"
+	manpower = 42633
+	
+	state_category = wasteland
+	impassable = no
+
+	history={
+		owner = CMR
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = NGR
+		add_core_of = CMR
+	}
+
+	provinces={
+		8028 10758 10805 10780 
+	}
+
+	local_supplies=0.0 
+}
