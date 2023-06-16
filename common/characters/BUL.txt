@@ -72,19 +72,24 @@ characters = {
 			}
 			country_leader = {
 				ideology = big_tent
-				traits = { # }
+				traits = { }
 				expire = "1965.1.1"
 				id = -1
 			}
 		}
 	}
 
+	# Can become country leader later (Non-Aligned -> Despotism)
 	BUL_regency_council = {
 		name = BUL_regency_council
 		portraits = {
 			civilian = {
-				large = "GFX_portrait_bul_regency_council" #Can become country leader later (Non-Aligned -> Despotism)
+				large = GFX_portrait_bul_regency_council
 			}
+		}
+		country_leader = {
+			ideology = big_tent
+			traits = { }
 		}
 	}
 

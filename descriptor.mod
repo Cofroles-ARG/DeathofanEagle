@@ -9,5 +9,5 @@ tags={
 	"Military"
 	"National Focuses"
 }
-name="Death of an Eagle 2023"
-supported_version="1.12.9"
+name="Death of an Eagle"
+supported_version="1.12.*"
