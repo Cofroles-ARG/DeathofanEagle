@@ -39,15 +39,15 @@ bookmarks = {
 				#
 			}
 		}
-		PRE = {
-			history = PRE_GATHERING_STORM_DESC
-			ideology = royalism
+		ITA = {
+			history = ITA_GATHERING_STORM_DESC
+			ideology = fascism
 			ideas = {
 				#
-			}
+			}	
 			focuses = {
 				#
-			}
+			}		
 		}
 		USA = {
 			history = USA_GATHERING_STORM_DESC
@@ -83,16 +83,16 @@ bookmarks = {
 			history = OTHER_GATHERING_STORM_DESC
 		}
 
-		ITA = {
-			minor=yes
-			history = ITA_GATHERING_STORM_DESC
-			ideology = fascism
+		PRE = {
+			minor = yes
+			history = PRE_GATHERING_STORM_DESC
+			ideology = royalism
 			ideas = {
 				#
-			}	
+			}
 			focuses = {
 				#
-			}		
+			}
 		}
 		SPR = {
 			minor = yes
