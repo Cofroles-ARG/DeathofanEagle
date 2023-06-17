@@ -11,4 +11,4 @@ tags={
 }
 name="Death of an Eagle"
 supported_version="1.12.*"
-path="path/to/your/mod/folder"
+path="C:/Users/________/Documents/Paradox Interactive/Hearts of Iron IV/mod/deathofaneagle"
