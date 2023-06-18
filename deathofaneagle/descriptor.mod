@@ -11,4 +11,3 @@ tags={
 }
 name="Death of an Eagle"
 supported_version="1.12.*"
-path="C:/Users/Mateo/Documents/Paradox Interactive/Hearts of Iron IV/mod/DOAEFEB2023"
