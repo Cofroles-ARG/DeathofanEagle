@@ -11,3 +11,4 @@ tags={
 }
 name="Death of an Eagle"
 supported_version="1.12.*"
+replace_path="gfx/loadingscreens"
