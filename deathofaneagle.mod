@@ -12,3 +12,4 @@ tags={
 name="Death of an Eagle"
 supported_version="1.12.*"
 path="C:/Users/________/Documents/Paradox Interactive/Hearts of Iron IV/mod/deathofaneagle"
+replace_path="gfx/loadingscreens"
