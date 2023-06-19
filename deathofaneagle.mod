@@ -10,5 +10,6 @@ tags={
 	"National Focuses"
 }
 name="Death of an Eagle"
+replace_path="gfx/loadingscreens"
 supported_version="1.12.*"
 path="C:/Users/________/Documents/Paradox Interactive/Hearts of Iron IV/mod/deathofaneagle"
