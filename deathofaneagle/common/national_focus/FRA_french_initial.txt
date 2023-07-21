@@ -7,11 +7,1579 @@ focus_tree = {
 			tag = FRA
 		}
 	}
+	#Focus for For a Social Republic
+	focus = {
+		id = FRA_for_a_social_republic
+		icon = GFX_goal_generic_national_unity
+		x = 83
+		y = 23
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_a_constitution_under_catholic_ideals 
+		}
+		prerequisite = { 
+			focus = FRA_social_first 
+		}
+		prerequisite = { 
+			focus = FRA_a_stable_society 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Stable Society
+	focus = {
+		id = FRA_a_stable_society
+		icon = GFX_goal_generic_demand_territory
+		x = 87
+		y = 22
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_putting_an_end_to_extremism 
+		}
+		prerequisite = { 
+			focus = FRA_welfare_for_our_citizens 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Support the Working Man
+	focus = {
+		id = FRA_support_the_working_man
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 77
+		y = 21
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_rally_young_patriots }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Support Women's Suffrage
+	focus = {
+		id = FRA_support_womens_suffrage
+		icon = GFX_focus_focus_fra_revolution_utmost
+		x = 81
+		y = 21
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_faith_in_god_and_church }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Align Patriotic Industrialists
+	focus = {
+		id = FRA_align_patriotic_industrialists
+		icon = GFX_goal_unknown ##Unfortunately, the tool could not find your icon in the game's files
+		x = 89
+		y = 20
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_to_a_peoples_corporatism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Rally Young Patriots
+	focus = {
+		id = FRA_rally_young_patriots
+		icon = GFX_focus_generic_military_academy
+		x = 77
+		y = 20
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_mass_membership_ideal }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Faith in God and Church
+	focus = {
+		id = FRA_faith_in_god_and_church
+		icon = GFX_focus_por_concordat
+		x = 81
+		y = 20
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_mass_membership_ideal 
+		}
+		prerequisite = { 
+			focus = FRA_a_catholic_populist_ethos 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Towards Social Harmony
+	focus = {
+		id = FRA_towards_social_harmony
+		icon = GFX_goal_tripartite_pact
+		x = 85
+		y = 20
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_to_a_peoples_corporatism 
+		}
+		prerequisite = { 
+			focus = FRA_a_catholic_populist_ethos 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for To a People's Corporatism
+	focus = {
+		id = FRA_to_a_peoples_corporatism
+		icon = GFX_goal_generic_production2
+		x = 87
+		y = 19
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_a_nationalist_alternative }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for François de La Rocque's Presidency
+	focus = {
+		id = FRA_franois_de_la_rocques_presidency
+		icon = GFX_focus_generic_support_the_left_right
+		x = 83
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_announce_snap_elections }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Nationalist Alternative
+	focus = {
+		id = FRA_a_nationalist_alternative
+		icon = GFX_goal_generic_dangerous_deal
+		x = 83
+		y = 18
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_franois_de_la_rocques_presidency }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Mass Membership Ideal
+	focus = {
+		id = FRA_mass_membership_ideal
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 79
+		y = 19
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_a_nationalist_alternative }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Our Ties with the Political System
+	focus = {
+		id = FRA_our_ties_with_the_political_system
+		icon = GFX_goal_generic_neutrality_focus
+		x = 75
+		y = 21
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_middle_class_is_supreme 
+		}
+		prerequisite = { 
+			focus = FRA_promote_political_plurality 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Towards a Stable Democratic System
+	focus = {
+		id = FRA_towards_a_stable_democratic_system
+		icon = GFX_goal_support_democracy
+		x = 74
+		y = 22
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_unite_the_french_society 
+		}
+		prerequisite = { 
+			focus = FRA_undermine_the_farright_remnants 
+		}
+		prerequisite = { 
+			focus = FRA_our_ties_with_the_political_system 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Politics at Play
+	focus = {
+		id = FRA_politics_at_play
+		icon = GFX_focus_generic_treaty
+		x = 72
+		y = 23
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_ideal_french_way 
+		}
+		prerequisite = { 
+			focus = FRA_towards_a_stable_democratic_system 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Secular and Catholic Nation
+	focus = {
+		id = FRA_a_secular_and_catholic_nation
+		icon = GFX_focus_por_concordat
+		x = 75
+		y = 19
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_redefining_french_conservatism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Middle Class is Supreme
+	focus = {
+		id = FRA_the_middle_class_is_supreme
+		icon = GFX_goal_unknown
+		x = 70
+		y = 20
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_a_secular_and_catholic_nation 
+		}
+		prerequisite = { 
+			focus = FRA_for_the_interests_of_the_french_people 
+		}
+		prerequisite = { 
+			focus = FRA_market_economy_under_french_guidance 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Unite the French Society
+	focus = {
+		id = FRA_unite_the_french_society
+		icon = GFX_focus_generic_military_academy
+		x = 69
+		y = 21
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_middle_class_is_supreme 
+		}
+		prerequisite = { 
+			focus = FRA_promote_political_plurality 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Undermine the Far-Right Remnants
+	focus = {
+		id = FRA_undermine_the_farright_remnants
+		icon = GFX_focus_focus_fra_fascist_threat
+		x = 72
+		y = 21
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_middle_class_is_supreme 
+		}
+		prerequisite = { 
+			focus = FRA_promote_political_plurality 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for For the Interests of the French People
+	focus = {
+		id = FRA_for_the_interests_of_the_french_people
+		icon = GFX_goal_unknown
+		x = 72
+		y = 19
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_redefining_french_conservatism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Louis Marin's Presidency
+	focus = {
+		id = FRA_louis_marins_presidency
+		icon = GFX_goal_support_democracy
+		x = 72
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_announce_snap_elections }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Redefining French Conservatism
+	focus = {
+		id = FRA_redefining_french_conservatism
+		icon = GFX_goal_generic_propaganda
+		x = 72
+		y = 18
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_louis_marins_presidency }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for To Prosperity And Equality
+	focus = {
+		id = FRA_to_prosperity_and_equality
+		icon = GFX_goal_unknown
+		x = 63
+		y = 22
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_uphold_the_citizens_interest 
+		}
+		prerequisite = { 
+			focus = FRA_enforcing_a_tax_on_private_businesses 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Liberty Under Socialism
+	focus = {
+		id = FRA_liberty_under_socialism
+		icon = GFX_goal_generic_soviet_construction
+		x = 62
+		y = 23
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_servants_of_the_people 
+		}
+		prerequisite = { 
+			focus = FRA_to_prosperity_and_equality 
+		}
+		prerequisite = { 
+			focus = FRA_sidelining_the_right 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Sidelining the Right
+	focus = {
+		id = FRA_sidelining_the_right
+		icon = GFX_goal_tripartite_pact
+		x = 67
+		y = 22
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_win_back_the_workers }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Enforcing A Tax On Private Businesses
+	focus = {
+		id = FRA_enforcing_a_tax_on_private_businesses
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 65
+		y = 21
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_empower_the_trade_unions }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Win Back The Workers
+	focus = {
+		id = FRA_win_back_the_workers
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 67
+		y = 21
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_courting_the_pcf }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Servants of the People
+	focus = {
+		id = FRA_servants_of_the_people
+		icon = GFX_goal_support_democracy
+		x = 57
+		y = 22
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_reform_colonial_policies 
+		}
+		prerequisite = { 
+			focus = FRA_a_bridge_to_class_differences 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Courting The PCF
+	focus = {
+		id = FRA_courting_the_pcf
+		icon = GFX_goal_support_communism
+		x = 67
+		y = 20
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_under_a_popular_front }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Uphold The Citizen's Interest
+	focus = {
+		id = FRA_uphold_the_citizens_interest
+		icon = GFX_focus_usa_guarantee_the_american_dream
+		x = 61
+		y = 21
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_enact_stronger_welfare_laws }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reform Colonial Policies
+	focus = {
+		id = FRA_reform_colonial_policies
+		icon = GFX_goal_generic_cavalry
+		x = 55
+		y = 21
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_expanding_womens_rights }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Bridge To Class Differences
+	focus = {
+		id = FRA_a_bridge_to_class_differences
+		icon = GFX_goal_tripartite_pact
+		x = 59
+		y = 21
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_ardent_anticlerigalism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Enact Stronger Welfare Laws
+	focus = {
+		id = FRA_enact_stronger_welfare_laws
+		icon = GFX_goal_generic_production2
+		x = 61
+		y = 20
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_peoples_economy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Empower The Trade Unions
+	focus = {
+		id = FRA_empower_the_trade_unions
+		icon = GFX_goal_tfv_generic_tech_sharing
+		x = 65
+		y = 20
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_peoples_economy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Ideas of Social Progress
+	focus = {
+		id = FRA_ideas_of_social_progress
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 57
+		y = 19
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_commited_to_a_healthy_democracy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The People's Economy
+	focus = {
+		id = FRA_the_peoples_economy
+		icon = GFX_focus_generic_socialist_science
+		x = 63
+		y = 19
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_commited_to_a_healthy_democracy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Under A Popular Front
+	focus = {
+		id = FRA_under_a_popular_front
+		icon = GFX_focus_por_workers_of_iberia
+		x = 67
+		y = 19
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_commited_to_a_healthy_democracy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Expanding Women's Rights
+	focus = {
+		id = FRA_expanding_womens_rights
+		icon = GFX_goal_generic_forceful_treaty
+		x = 55
+		y = 20
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_ideas_of_social_progress }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Ardent Anti-clerigalism
+	focus = {
+		id = FRA_ardent_anticlerigalism
+		icon = GFX_focus_mex_triumph_over_the_cristeros
+		x = 59
+		y = 20
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_ideas_of_social_progress }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Announce Snap Elections
+	focus = {
+		id = FRA_announce_snap_elections
+		icon = GFX_focus_generic_treaty
+		x = 75
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_facilitate_the_democratic_process }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Leon Blum's Presidency
+	focus = {
+		id = FRA_leon_blums_presidency
+		icon = GFX_goal_generic_war_with_comintern
+		x = 63
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_announce_snap_elections }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Commited To A Healthy Democracy
+	focus = {
+		id = FRA_commited_to_a_healthy_democracy
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 63
+		y = 18
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_leon_blums_presidency }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Petain's National Republic
+	focus = {
+		id = FRA_petains_national_republic
+		icon = GFX_goal_rhineland
+		x = 56
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_keeping_the_populace_happy 
+		}
+		prerequisite = { 
+			focus = FRA_a_french_rebirth 
+		}
+		prerequisite = { 
+			focus = FRA_political_supremacy_of_the_army 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Keeping The Populace Happy
+	focus = {
+		id = FRA_keeping_the_populace_happy
+		icon = GFX_goal_continuous_increase_nu
+		x = 56
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_eyes_in_every_corner }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A French Rebirth
+	focus = {
+		id = FRA_a_french_rebirth
+		icon = GFX_goal_generic_national_unity
+		x = 51
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_power_to_the_clergy 
+		}
+		prerequisite = { 
+			focus = FRA_inspiring_a_patriotic_reaction 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Control The Industrialists
+	focus = {
+		id = FRA_control_the_industrialists
+		icon = GFX_goal_generic_production
+		x = 63
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_a_corporatist_economy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for An Army With a State
+	focus = {
+		id = FRA_an_army_with_a_state
+		icon = GFX_focus_generic_little_entente
+		x = 59
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_rewrite_the_constitution }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Eyes In Every Corner
+	focus = {
+		id = FRA_eyes_in_every_corner
+		icon = GFX_focus_generic_japanese_imperial_glory
+		x = 56
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_force_party_collaboration }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Force Party Collaboration
+	focus = {
+		id = FRA_force_party_collaboration
+		icon = GFX_goal_tripartite_pact
+		x = 56
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_secure_the_marechals_place }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Rewrite The Constitution
+	focus = {
+		id = FRA_rewrite_the_constitution
+		icon = GFX_goal_generic_forceful_treaty
+		x = 59
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_organic_state }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Corporatist Economy
+	focus = {
+		id = FRA_a_corporatist_economy
+		icon = GFX_goal_generic_production2
+		x = 63
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_organic_state }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Inspiring a Patriotic Reaction
+	focus = {
+		id = FRA_inspiring_a_patriotic_reaction
+		icon = GFX_goal_generic_propaganda
+		x = 49
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_a_return_to_tradition }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Power To The Clergy
+	focus = {
+		id = FRA_power_to_the_clergy
+		icon = GFX_focus_mex_restore_the_army_of_christ
+		x = 53
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_enforcing_moral_laws }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Facilitate The Democratic Process
+	focus = {
+		id = FRA_facilitate_the_democratic_process
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 75
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_bordeaux_trials 
+		}
+		prerequisite = { 
+			focus = FRA_support_the_intellectuals 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Under Petain's Iron Fist
+	focus = {
+		id = FRA_under_petains_iron_fist
+		icon = GFX_focus_generic_vichy_france_triumphant_focus
+		x = 56
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_marchal_nous_voil }
+		mutually_exclusive = { focus = FRA_the_young_officers_take_over }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A True National Revolution
+	focus = {
+		id = FRA_a_true_national_revolution
+		icon = GFX_goal_generic_political_pressure
+		x = 51
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_under_petains_iron_fist }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Secure The Marechal's Place
+	focus = {
+		id = FRA_secure_the_marechals_place
+		icon = GFX_goal_generic_neutrality_focus
+		x = 56
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_under_petains_iron_fist }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Organic State
+	focus = {
+		id = FRA_the_organic_state
+		icon = GFX_goal_generic_trade
+		x = 61
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_under_petains_iron_fist }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Return To Tradition
+	focus = {
+		id = FRA_a_return_to_tradition
+		icon = GFX_goal_demand_sudetenland
+		x = 49
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_a_true_national_revolution }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Enforcing Moral Laws
+	focus = {
+		id = FRA_enforcing_moral_laws
+		icon = GFX_focus_por_concordat
+		x = 53
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_a_true_national_revolution }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Cooperation With The Former Parties
+	focus = {
+		id = FRA_cooperation_with_the_former_parties
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 75
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_democratization_of_france 
+		}
+		prerequisite = { 
+			focus = FRA_freeing_the_opposition 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Letting The Economy Breathe
+	focus = {
+		id = FRA_letting_the_economy_breathe
+		icon = GFX_goal_generic_consumer_goods
+		x = 79
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_democratization_of_france 
+		}
+		prerequisite = { 
+			focus = FRA_freeing_the_opposition 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Bordeaux Trials
+	focus = {
+		id = FRA_the_bordeaux_trials
+		icon = GFX_focus_generic_treaty
+		x = 73
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_cooperation_with_the_former_parties 
+		}
+		prerequisite = { 
+			focus = FRA_letting_the_economy_breathe 
+		}
+		prerequisite = { 
+			focus = FRA_end_restrictive_policies 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Support The Intellectuals
+	focus = {
+		id = FRA_support_the_intellectuals
+		icon = GFX_goal_generic_scientific_exchange
+		x = 77
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_cooperation_with_the_former_parties 
+		}
+		prerequisite = { 
+			focus = FRA_letting_the_economy_breathe 
+		}
+		prerequisite = { 
+			focus = FRA_end_restrictive_policies 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for To A Greater Latin Union
+	focus = {
+		id = FRA_to_a_greater_latin_union
+		icon = GFX_focus_generic_adriatic_sea_focus
+		x = 21
+		y = 11
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_france_at_a_crossroad }
+		mutually_exclusive = { focus = FRA_for_a_greater_france }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for For A Greater France
+	focus = {
+		id = FRA_for_a_greater_france
+		icon = GFX_focus_usa_focus_on_europe
+		x = 31
+		y = 11
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_france_at_a_crossroad }
+		mutually_exclusive = { focus = FRA_to_a_greater_latin_union }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Secret Rearmament
+	focus = {
+		id = FRA_secret_rearmament
+		icon = GFX_goal_generic_army_tanks
+		x = 26
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_a_new_french_state 
+		}
+		prerequisite = { 
+			focus = FRA_industrial_development 
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for National Syndicalism
+	focus = {
+		id = FRA_national_syndicalism
+		icon = GFX_goal_generic_production2
+		x = 29
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_a_new_french_state 
+		}
+		prerequisite = { 
+			focus = FRA_industrial_development 
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for France At A Crossroad
+	focus = {
+		id = FRA_france_at_a_crossroad
+		icon = GFX_goal_generic_major_war
+		x = 26
+		y = 10
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_national_syndicalism 
+		}
+		prerequisite = { 
+			focus = FRA_secret_rearmament 
+		}
+		prerequisite = { 
+			focus = FRA_deal_with_the_enemies_of_the_state 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A New, French, State
+	focus = {
+		id = FRA_a_new_french_state
+		icon = GFX_goal_support_fascism
+		x = 24
+		y = 8
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_victory_of_the_front }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Deal With The Enemies Of The State
+	focus = {
+		id = FRA_deal_with_the_enemies_of_the_state
+		icon = GFX_goal_generic_political_pressure
+		x = 23
+		y = 9
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_a_new_french_state 
+		}
+		prerequisite = { 
+			focus = FRA_industrial_development 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Industrial Development
+	focus = {
+		id = FRA_industrial_development
+		icon = GFX_goal_unknown ##Unfortunately, the tool could not find your icon in the game's files
+		x = 28
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_victory_of_the_front }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for New European Hegemony
+	focus = {
+		id = FRA_new_european_hegemony
+		icon = GFX_focus_usa_focus_on_europe
+		x = 13
+		y = 14
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_appease_the_royalists 
+		}
+		prerequisite = { 
+			focus = FRA_a_friend_in_need 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Rooster And The Bear
+	focus = {
+		id = FRA_the_rooster_and_the_bear
+		icon = GFX_FRA_the_rooster_and_the_bear-116309
+		x = 15
+		y = 14
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_a_friend_in_need 
+		}
+		prerequisite = { 
+			focus = FRA_appease_the_royalists 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Neutralize The Menace At Our Border
+	focus = {
+		id = FRA_neutralize_the_menace_at_our_border
+		icon = GFX_focus_attack_germany
+		x = 14
+		y = 15
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_new_european_hegemony 
+		}
+		prerequisite = { 
+			focus = FRA_the_rooster_and_the_bear 
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal= { 
+					type = annex_everything 
+					target = GER
+			}
+		}
+	}
+
+	#Focus for Dismember Germany
+	focus = {
+		id = FRA_dismember_germany
+		icon = GFX_FRA_dismember_germany-113867
+		x = 12
+		y = 16
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_neutralize_the_menace_at_our_border }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Shadow State, Victorious
+	focus = {
+		id = FRA_the_shadow_state_victorious
+		icon = GFX_focus_generic_support_the_left_right
+		x = 16
+		y = 16
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_neutralize_the_menace_at_our_border }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Appease The Royalists
+	focus = {
+		id = FRA_appease_the_royalists
+		icon = GFX_focus_rom_handle_king
+		x = 12
+		y = 13
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_militarist_zealotism 
+		}
+		prerequisite = { 
+			focus = FRA_remove_political_freedoms 
+		}
+		prerequisite = { 
+			focus = FRA_declare_executive_powers 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Friend In Need
+	focus = {
+		id = FRA_a_friend_in_need
+		icon = GFX_focus_spa_the_phalanx_ascendant
+		x = 16
+		y = 13
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_declare_executive_powers 
+		}
+		prerequisite = { 
+			focus = FRA_remove_political_freedoms 
+		}
+		prerequisite = { 
+			focus = FRA_militarist_zealotism 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Declare Executive Powers
+	focus = {
+		id = FRA_declare_executive_powers
+		icon = GFX_goal_generic_propaganda
+		x = 11
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_a_state_in_the_shadows 
+		}
+		prerequisite = { 
+			focus = FRA_replace_the_former_parties 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Remove Political Freedoms
+	focus = {
+		id = FRA_remove_political_freedoms
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		x = 17
+		y = 12
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_replace_the_former_parties 
+		}
+		prerequisite = { 
+			focus = FRA_a_state_in_the_shadows 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Militarist Zealotism
+	focus = {
+		id = FRA_militarist_zealotism
+		icon = GFX_goal_generic_secret_weapon
+		x = 14
+		y = 12
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_a_state_in_the_shadows 
+		}
+		prerequisite = { 
+			focus = FRA_replace_the_former_parties 
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Return To America
+	focus = {
+		id = FRA_return_to_america
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 6
+		y = 16
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_destroy_the_german_state }
+		search_filters = { FOCUS_FILTER_ANNEXATION } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal= { 
+					type = annex_everything 
+					target = CAY
+			}
+		}
+	}
+
+	#Focus for Destroy The German State
+	focus = {
+		id = FRA_destroy_the_german_state
+		icon = GFX_focus_attack_germany
+		x = 4
+		y = 15
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_promises_of_restoration 
+		}
+		prerequisite = { 
+			focus = FRA_dtente_with_britain 
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal= { 
+type = annex_everything 
+target = GER
+}
+		}
+	}
+
+	#Focus for Demand Morocco As Payment
+	focus = {
+		id = FRA_demand_morocco_as_payment
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		x = 2
+		y = 16
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_destroy_the_german_state }
+		search_filters = { FOCUS_FILTER_ANNEXATION } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Détente With Britain
+	focus = {
+		id = FRA_dtente_with_britain
+		icon = GFX_focus_chi_british_cooperation
+		x = 5
+		y = 14
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_support_the_carlists 
+		}
+		prerequisite = { 
+			focus = FRA_the_natural_borders 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Promises Of Restoration
+	focus = {
+		id = FRA_promises_of_restoration
+		icon = GFX_goal_tripartite_pact
+		x = 3
+		y = 14
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_natural_borders 
+		}
+		prerequisite = { 
+			focus = FRA_support_the_carlists 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Social First!
+	focus = {
+		id = FRA_social_first
+		icon = GFX_goal_unknown
+		x = 83
+		y = 22
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_support_womens_suffrage 
+		}
+		prerequisite = { 
+			focus = FRA_putting_an_end_to_extremism 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Constitution under Catholic Ideals
+	focus = {
+		id = FRA_a_constitution_under_catholic_ideals
+		icon = GFX_goal_generic_forceful_treaty
+		x = 79
+		y = 22
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_support_the_working_man 
+		}
+		prerequisite = { 
+			focus = FRA_support_womens_suffrage 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Victory Of The Race!
+	focus = {
+		id = FRA_victory_of_the_race
+		icon = GFX_goal_generic_CAS
+		x = 39
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_dust_settles }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_completed_focus= FRA_conquer_the_power
+		}
+		completion_reward = {
+			set_politics= {
+ ruling_party = reactionism
+elections_allowed = no 
+}
+		}
+	}
+
+	#Focus for Victory Of The Front!
+	focus = {
+		id = FRA_victory_of_the_front
+		icon = GFX_goal_generic_propaganda
+		x = 26
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_dust_settles }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_completed_focus= FRA_getting_ready_for_the_struggle
+		}
+		completion_reward = {
+			add_political_power= 50
+		}
+	}
+
+	#Focus for Victory Of Conservatism!
+	focus = {
+		id = FRA_victory_of_conservatism
+		icon = GFX_focus_focus_fra_orleans_restoration
+		x = 9
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_dust_settles }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_completed_focus= FRA_montjoie_saint_denis
+		}
+		completion_reward = {
+			set_politics= {
+ ruling_party = royalism 
+elections_allowed = no 
+}
+		}
+	}
+
 	#Focus for Aftermath Of The Veterans' Riot
 	focus = {
 		id = FRA_aftermath_of_the_veterans_riot
 		icon = GFX_focus_fra_french_union
-		x = 11
+		x = 46
 		y = 0
 		cost = 10
 		available_if_capitulated = yes
@@ -28,7 +1596,7 @@ focus_tree = {
 	focus = {
 		id = FRA_use_the_church
 		icon = GFX_focus_por_concordat
-		x = 3
+		x = 38
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -39,18 +1607,18 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_popularity= { 
-			ideology = royalism
-			popularity = 0.05
-			}
-			  add_stability= 0.05
-					}
-			}
+ideology = royalism
+popularity = 0.05
+}
+  add_stability= 0.05
+		}
+	}
 
 	#Focus for Montjoie Saint Denis!
 	focus = {
 		id = FRA_montjoie_saint_denis
 		icon = GFX_FRA_montjoie_saint_denis-138775
-		x = 3
+		x = 38
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
@@ -67,9 +1635,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_popularity= { 
-			ideology = royalism 
-			popularity = 0.25 
-			}
+ideology = royalism 
+popularity = 0.25 
+}
 		}
 	}
 
@@ -77,7 +1645,7 @@ focus_tree = {
 	focus = {
 		id = FRA_getting_ready_for_the_struggle
 		icon = GFX_FRA_getting_ready_for_the_struggle-138776
-		x = 11
+		x = 46
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
@@ -94,9 +1662,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_popularity= { 
-			ideology = fascism 
-			popularity = 0.25 
-			}
+ideology = fascism 
+popularity = 0.25 
+}
 		}
 	}
 
@@ -104,7 +1672,7 @@ focus_tree = {
 	focus = {
 		id = FRA_conquer_the_power
 		icon = GFX_FRA_conquer_the_power-138777
-		x = 19
+		x = 54
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
@@ -124,9 +1692,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_popularity= { 
-			ideology = reactionism
-			popularity = 0.25 
-			}
+ideology = reactionism
+popularity = 0.25 
+}
 		}
 	}
 
@@ -134,7 +1702,7 @@ focus_tree = {
 	focus = {
 		id = FRA_mass_produce_laction_franaise
 		icon = GFX_goal_generic_propaganda
-		x = 0
+		x = 35
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -151,8 +1719,8 @@ focus_tree = {
 	#Focus for Alliance With The PSF
 	focus = {
 		id = FRA_alliance_with_the_psf
-		icon = de_la_rocque_deal
-		x = 6
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 41
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -163,9 +1731,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power= 50  add_popularity= { 
-			ideology = democratic
-			popularity = 0.05
-			}
+ideology = democratic
+popularity = 0.05
+}
 		}
 	}
 
@@ -173,7 +1741,7 @@ focus_tree = {
 	focus = {
 		id = FRA_crack_down_against_the_mtques
 		icon = GFX_goal_generic_political_pressure
-		x = 1
+		x = 36
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -199,7 +1767,7 @@ focus_tree = {
 	focus = {
 		id = FRA_utilize_la_cagoule
 		icon = GFX_goal_generic_secret_weapon
-		x = 5
+		x = 40
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -225,7 +1793,7 @@ focus_tree = {
 	focus = {
 		id = FRA_all_ready
 		icon = GFX_FRA_all_ready-138781
-		x = 3
+		x = 38
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
@@ -248,7 +1816,7 @@ focus_tree = {
 	focus = {
 		id = FRA_ban_laction_franaise
 		icon = GFX_goal_generic_political_pressure
-		x = 8
+		x = 43
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -258,9 +1826,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			set_political_party= { 
-			ideology = royalism
-			popularity = -0.5 
-			}
+ideology = royalism
+popularity = -0.5 
+}
 		}
 	}
 
@@ -268,7 +1836,7 @@ focus_tree = {
 	focus = {
 		id = FRA_appease_bucard
 		icon = GFX_goal_generic_dangerous_deal
-		x = 14
+		x = 49
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -279,22 +1847,22 @@ focus_tree = {
 		}
 		completion_reward = {
 			set_political_party= { 
-			ideology = reactionist
-			popularity = -0.5 
-			}
-			  set_political_party= { 
-			ideology = fascist 
-			popularity = 0.5 
-			}
-			  add_political_power= 50
-				}
-			}
+ideology = reactionist
+popularity = -0.5 
+}
+  set_political_party= { 
+ideology = fascist 
+popularity = 0.5 
+}
+  add_political_power= 50
+		}
+	}
 
 	#Focus for Glorify The Worker
 	focus = {
 		id = FRA_glorify_the_worker
 		icon = GFX_goal_generic_production
-		x = 11
+		x = 46
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -312,7 +1880,7 @@ focus_tree = {
 	focus = {
 		id = FRA_speak_with_foreign_ideologues
 		icon = GFX_FRA_speak_with_foreign_ideologues-138782
-		x = 9
+		x = 44
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -331,15 +1899,15 @@ focus_tree = {
 		}
 		available = {
 			has_opinion= {
-			target = ITA 
-			value >50
-			}
+target = ITA 
+value >50
+}
 		}
 		completion_reward = {
 			diplomatic_relation= { 
-			country = ITA 
-			relation = non_aggression_pact 
-			}
+country = ITA 
+relation = non_aggression_pact 
+}
 		}
 	}
 
@@ -347,7 +1915,7 @@ focus_tree = {
 	focus = {
 		id = FRA_merge_the_parties
 		icon = GFX_focus_generic_treaty
-		x = 13
+		x = 48
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -366,22 +1934,22 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_popularity= { 
-			ideology = fascism 
-			popularity = 1 
-			}
-			  add_popularity= { 
-			ideology = reactionism
-			popularity = -1 
-			}
-			  add_popularity= { 
-			ideology = royalism
-			popularity = -1 
-			}
-			  set_party_name= { 
-			ideology = fascism
-			long_name = FRA_fascism_party_merged 
-			name = FRA_fascism_party_merged
-			}
+ideology = fascism 
+popularity = 1 
+}
+  add_popularity= { 
+ideology = reactionism
+popularity = -1 
+}
+  add_popularity= { 
+ideology = royalism
+popularity = -1 
+}
+  set_party_name= { 
+ideology = fascism
+long_name = FRA_fascism_party_merged 
+name = FRA_fascism_party_merged
+}
 		}
 	}
 
@@ -389,7 +1957,7 @@ focus_tree = {
 	focus = {
 		id = FRA_everything_set
 		icon = GFX_FRA_everything_set-138801
-		x = 11
+		x = 46
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
@@ -408,11 +1976,11 @@ focus_tree = {
 		}
 	}
 
-	#Focus for agitate the soldiers
+	#Focus for Agitate The Soldiers
 	focus = {
 		id = FRA_agitate_the_soldiers
 		icon = GFX_focus_generic_commonwealth_build_infantry
-		x = 16
+		x = 51
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -422,7 +1990,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_war_support= 5
+			add_war_support= 0.05
 		}
 	}
 
@@ -430,7 +1998,7 @@ focus_tree = {
 	focus = {
 		id = FRA_denounce_doriot
 		icon = GFX_FRA_denounce_doriot-138802
-		x = 22
+		x = 57
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -441,9 +2009,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_stability= -0.05  add_popularity= { 
-			ideology = fascism 
-			popularity = -0.1 
-			}
+ideology = fascism 
+popularity = -0.1 
+}
 		}
 	}
 
@@ -451,7 +2019,7 @@ focus_tree = {
 	focus = {
 		id = FRA_boost_antigerman_sentiment
 		icon = GFX_FRA_boost_antigerman_sentiment-138818
-		x = 19
+		x = 54
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -469,7 +2037,7 @@ focus_tree = {
 	focus = {
 		id = FRA_get_the_milice_on_our_side
 		icon = GFX_FRA_get_the_milice_on_our_side-138819
-		x = 17
+		x = 52
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -487,9 +2055,10 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_stability= -0.05  add_popularity= { 
-			ideology = reactionism
-			popularity = 0.1 
+			add_stability= -0.05
+			  add_popularity= { 
+					ideology = reactionism
+					popularity = 0.1 
 			}
 		}
 	}
@@ -498,7 +2067,7 @@ focus_tree = {
 	focus = {
 		id = FRA_lets_go
 		icon = GFX_FRA_lets_go-138820
-		x = 19
+		x = 54
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
@@ -521,7 +2090,7 @@ focus_tree = {
 	focus = {
 		id = FRA_war_as_a_mindset
 		icon = GFX_goal_generic_major_war
-		x = 21
+		x = 56
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -539,9 +2108,10 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_war_support= 0.05  add_popularity= { 
-			ideology = reactionism
-			popularity = 0.1 
+			add_war_support= 0.05 
+				add_popularity= { 
+					ideology = reactionism
+					popularity = 0.1 
 			}
 		}
 	}
@@ -550,7 +2120,7 @@ focus_tree = {
 	focus = {
 		id = FRA_1937_front_de_la_libert_summit
 		icon = GFX_FRA_1937_front_de_la_libert_summit-138821
-		x = 11
+		x = 46
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
@@ -564,6 +2134,1667 @@ focus_tree = {
 			focus = FRA_lets_go 
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Maréchal, Nous Voilà!
+	focus = {
+		id = FRA_marchal_nous_voil
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		x = 66
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_purge_doriots_loyalists 
+		}
+		prerequisite = { 
+			focus = FRA_arm_the_loyal_patriots 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Purge Doriot's Loyalists
+	focus = {
+		id = FRA_purge_doriots_loyalists
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		x = 64
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_clean_the_military_ranks 
+		}
+		prerequisite = { 
+			focus = FRA_promote_traditional_values 
+		}
+		prerequisite = { 
+			focus = FRA_social_corporatism 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Arm The Loyal Patriots
+	focus = {
+		id = FRA_arm_the_loyal_patriots
+		icon = GFX_focus_generic_manpower
+		x = 68
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_clean_the_military_ranks 
+		}
+		prerequisite = { 
+			focus = FRA_promote_traditional_values 
+		}
+		prerequisite = { 
+			focus = FRA_social_corporatism 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Social Corporatism
+	focus = {
+		id = FRA_social_corporatism
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 70
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_road_to_an_organic_state 
+		}
+		prerequisite = { 
+			focus = FRA_the_ideas_of_the_revolution_nationale 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Clean The Military Ranks
+	focus = {
+		id = FRA_clean_the_military_ranks
+		icon = GFX_goal_generic_small_arms
+		x = 62
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_road_to_an_organic_state 
+		}
+		prerequisite = { 
+			focus = FRA_the_ideas_of_the_revolution_nationale 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Promote Traditional Values
+	focus = {
+		id = FRA_promote_traditional_values
+		icon = GFX_goal_generic_propaganda
+		x = 66
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_road_to_an_organic_state 
+		}
+		prerequisite = { 
+			focus = FRA_the_ideas_of_the_revolution_nationale 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Promote Neo-Frankish Ideals
+	focus = {
+		id = FRA_promote_neofrankish_ideals
+		icon = GFX_focus_usa_focus_on_europe
+		x = 37
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_victory_of_the_race }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= FRA_neo_frankist
+		}
+	}
+
+	#Focus for The Heirs Of Charlemagne
+	focus = {
+		id = FRA_the_heirs_of_charlemagne
+		icon = GFX_FRA_the_heirs_of_charlemagne-145484
+		x = 41
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_victory_of_the_race }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_war_support= 1  add_popularity= { 
+ideology = reactionism
+popularity = 0.15 
+}
+		}
+	}
+
+	#Focus for Militarize The Nation
+	focus = {
+		id = FRA_militarize_the_nation
+		icon = GFX_focus_generic_army_tanks2
+		x = 40
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_heirs_of_charlemagne 
+		}
+		prerequisite = { 
+			focus = FRA_promote_neofrankish_ideals 
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= FRA_ultramilitarism
+		}
+	}
+
+	#Focus for Freeing The Opposition
+	focus = {
+		id = FRA_freeing_the_opposition
+		icon = GFX_goal_tripartite_pact
+		x = 77
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_young_officers_take_over }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for End Restrictive Policies
+	focus = {
+		id = FRA_end_restrictive_policies
+		icon = GFX_goal_unknown
+		x = 71
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_democratization_of_france 
+		}
+		prerequisite = { 
+			focus = FRA_freeing_the_opposition 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Breeze Through The Low Countries
+	focus = {
+		id = FRA_breeze_through_the_low_countries
+		icon = GFX_focus_hol_oranje_boven
+		x = 39
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_shatter_the_treaty_asunder }
+		search_filters = { FOCUS_FILTER_ANNEXATION } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal= { 
+				type = annex_everything 
+				target = HOL
+				}
+				  create_wargoal= { 
+				type = annex_everything 
+				target = BEL
+			}
+		}
+	}
+
+	#Focus for Shatter The Treaty Asunder!
+	focus = {
+		id = FRA_shatter_the_treaty_asunder
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		x = 39
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_expand_the_alsatian_cell 
+		}
+		prerequisite = { 
+			focus = FRA_the_ideal_citizen_soldier 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			remove_ideas= FRA_verdun_treaty
+		}
+	}
+
+	#Focus for Disseminate Nationalist Propaganda
+	focus = {
+		id = FRA_disseminate_nationalist_propaganda
+		icon = GFX_goal_support_fascism
+		x = 36
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_purge_the_old_parties 
+		}
+		prerequisite = { 
+			focus = FRA_militarize_the_nation 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= FRA_nationalist_propaganda  add_political_power= 50
+		}
+	}
+
+	#Focus for The Dust Settles
+	focus = {
+		id = FRA_the_dust_settles
+		icon = GFX_goal_generic_major_alliance
+		x = 26
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_1937_front_de_la_libert_summit }
+		mutually_exclusive = { focus = FRA_the_lion_of_verdun_steps_in }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Lion of Verdun Steps In!
+	focus = {
+		id = FRA_the_lion_of_verdun_steps_in
+		icon = GFX_focus_generic_vichy_france_triumphant_focus
+		x = 66
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_1937_front_de_la_libert_summit }
+		mutually_exclusive = { focus = FRA_the_dust_settles }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Militarize the Blueshirts
+	focus = {
+		id = FRA_militarize_the_blueshirts
+		icon = GFX_focus_generic_manpower
+		x = 39
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_purge_the_old_parties 
+		}
+		prerequisite = { 
+			focus = FRA_militarize_the_nation 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Getting The Workers Ready
+	focus = {
+		id = FRA_getting_the_workers_ready
+		icon = GFX_goal_generic_production
+		x = 42
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_militarize_the_nation 
+		}
+		prerequisite = { 
+			focus = FRA_purge_the_old_parties 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Ideal Citizen Soldier
+	focus = {
+		id = FRA_the_ideal_citizen_soldier
+		icon = GFX_focus_generic_military_mission
+		x = 37
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_getting_the_workers_ready 
+		}
+		prerequisite = { 
+			focus = FRA_militarize_the_blueshirts 
+		}
+		prerequisite = { 
+			focus = FRA_disseminate_nationalist_propaganda 
+		}
+		search_filters = { FOCUS_FILTER_MANPOWER } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas= {
+				 remove_idea = FRA_ultramilitarism
+				add_idea = FRA_ultramilitarism2
+			}
+		}
+	}
+
+	#Focus for Expand The Alsatian Cell
+	focus = {
+		id = FRA_expand_the_alsatian_cell
+		icon = GFX_focus_prc_infiltration
+		x = 41
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_getting_the_workers_ready 
+		}
+		prerequisite = { 
+			focus = FRA_militarize_the_blueshirts 
+		}
+		prerequisite = { 
+			focus = FRA_disseminate_nationalist_propaganda 
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= FRA_spies
+		}
+	}
+
+	#Focus for Demand Catalonia
+	focus = {
+		id = FRA_demand_catalonia
+		icon = GFX_focus_focus_fra_intervention_spain
+		x = 36
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_shatter_the_treaty_asunder }
+		search_filters = { FOCUS_FILTER_ANNEXATION } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Secure The Peninsula
+	focus = {
+		id = FRA_secure_the_peninsula
+		icon = GFX_focus_attack_italy
+		x = 42
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_shatter_the_treaty_asunder }
+		search_filters = { FOCUS_FILTER_ANNEXATION } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal= { 
+			type = annex_everything 
+			target = ITA
+			}
+		}
+	}
+
+	#Focus for Purge The Old Parties
+	focus = {
+		id = FRA_purge_the_old_parties
+		icon = GFX_goal_generic_forceful_treaty
+		x = 38
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_heirs_of_charlemagne 
+		}
+		prerequisite = { 
+			focus = FRA_promote_neofrankish_ideals 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_popularity= { 
+			ideology = fascism 
+			popularity = -1
+			}
+			  add_popularity= { 
+			ideology = royalism
+			popularity = -1 
+			}
+			  add_popularity= { 
+			ideology = neutrality
+			popularity = -1
+			}
+			  add_popularity= { 
+			ideology = auth_democracy
+			popularity = -1
+			}
+			  add_popularity= { 
+			ideology = reactionism
+			popularity = 1 
+			}
+  add_manpower= -85500
+		}
+	}
+
+	#Focus for The Capetian Claims
+	focus = {
+		id = FRA_the_capetian_claims
+		icon = GFX_focus_attack_britain
+		x = 41
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_frankland_reborn }
+		search_filters = { FOCUS_FILTER_ANNEXATION } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal= { 
+			type = annex_everything 
+			target = ENG
+			}
+		}
+	}
+
+	#Focus for Finish The Teutons Once And For All!
+	focus = {
+		id = FRA_finish_the_teutons_once_and_for_all
+		icon = GFX_focus_attack_germany
+		x = 39
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_breeze_through_the_low_countries 
+		}
+		prerequisite = { 
+			focus = FRA_demand_catalonia 
+		}
+		prerequisite = { 
+			focus = FRA_secure_the_peninsula 
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal= { 
+			type = annex_everything 
+			target = GER
+			}
+		}
+	}
+
+	#Focus for Frankland Reborn
+	focus = {
+		id = FRA_frankland_reborn
+		icon = GFX_goal_generic_political_pressure
+		x = 39
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_finish_the_teutons_once_and_for_all }
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			set_cosmetic_tag= FRA_FRANKISH
+		}
+	}
+
+	#Focus for Revenge For Borodino
+	focus = {
+		id = FRA_revenge_for_borodino
+		icon = GFX_focus_fra_le_deluge
+		x = 37
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_frankland_reborn }
+		search_filters = { FOCUS_FILTER_ANNEXATION } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal= { 
+			type = annex_everything 
+			target = SOV
+			}
+		}
+	}
+
+	#Focus for Declare Null The Louisiana Purchase
+	focus = {
+		id = FRA_declare_null_the_louisiana_purchase
+		icon = GFX_goal_generic_territory_or_war
+		x = 39
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_revenge_for_borodino 
+		}
+		prerequisite = { 
+			focus = FRA_the_capetian_claims 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal= { 
+			type = annex_everything 
+			target = USA
+			}
+		}
+	}
+
+	#Focus for Repeal The Laws Of Exile
+	focus = {
+		id = FRA_repeal_the_laws_of_exile
+		icon = GFX_goal_generic_forceful_treaty
+		x = 7
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_victory_of_conservatism }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= FRA_no_exiles
+		}
+	}
+
+	#Focus for Expand The Camelots Du Roi
+	focus = {
+		id = FRA_expand_the_camelots_du_roi
+		icon = GFX_focus_fra_milice
+		x = 11
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_victory_of_conservatism }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= FRA_camelots
+		}
+	}
+
+	#Focus for Expand La Cagoule
+	focus = {
+		id = FRA_expand_la_cagoule
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 6
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_expand_the_camelots_du_roi 
+		}
+		prerequisite = { 
+			focus = FRA_repeal_the_laws_of_exile 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= FRA_la_cagoule
+		}
+	}
+
+	#Focus for Guarrantee Political Freedoms
+	focus = {
+		id = FRA_guarrantee_political_freedoms
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 9
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_expand_the_camelots_du_roi 
+		}
+		prerequisite = { 
+			focus = FRA_repeal_the_laws_of_exile 
+		}
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.2  add_political_power= 150
+		}
+	}
+
+	#Focus for Calm The Extremists Out
+	focus = {
+		id = FRA_calm_the_extremists_out
+		icon = GFX_goal_generic_CAS
+		x = 12
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_expand_the_camelots_du_roi 
+		}
+		prerequisite = { 
+			focus = FRA_repeal_the_laws_of_exile 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_popularity= { 
+			ideology = fascism 
+			popularity = -0.2 
+			}
+			  add_popularity= { 
+			ideology = reactionism
+			popularity = -0.2 
+			}
+  add_stability= 0.05
+		}
+	}
+
+	#Focus for The Grand Coronation
+	focus = {
+		id = FRA_the_grand_coronation
+		icon = GFX_focus_generic_monarchy_2
+		x = 4
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_expand_la_cagoule 
+		}
+		prerequisite = { 
+			focus = FRA_guarrantee_political_freedoms 
+		}
+		prerequisite = { 
+			focus = FRA_calm_the_extremists_out 
+		}
+		mutually_exclusive = { focus = FRA_the_cowled_men_strike }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			retire_country_leader= yes
+			create_country_leader= {
+					 name = "Jean III" 
+					desc = "POLITICS_PETER_II_DESC" 
+					picture = "Portrait_Jean.dds" 
+					expire = "1965.1.1" 
+					ideology = monarchism
+					traits = {
+							}
+
+					 }
+ 			 add_popularity= { 
+			ideology = royalism
+			popularity = 0.2 
+			}
+		}
+	}
+
+	#Focus for The Cowled Men Strike!
+	focus = {
+		id = FRA_the_cowled_men_strike
+		icon = GFX_goal_tfv_sever_ties_with_uk
+		x = 14
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_calm_the_extremists_out 
+		}
+		prerequisite = { 
+			focus = FRA_guarrantee_political_freedoms 
+		}
+		prerequisite = { 
+			focus = FRA_expand_la_cagoule 
+		}
+		mutually_exclusive = { 
+			focus = FRA_the_grand_coronation 
+		}
+		mutually_exclusive = { 
+			focus = FRA_ 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			set_politics= {
+			 ruling_party = fascism 
+			elections_allowed = no 
+			}
+ 			 retire_country_leader= yes
+			create_country_leader= {
+						 name = "Eugène Deloncle" 
+						desc = "POLITICS_PETER_II_DESC" 
+						picture = "Portrait_Deloncle.dds" 
+						expire = "1965.1.1" 
+						ideology = rw_populism
+						traits = {
+								}
+
+						 }
+			  add_popularity= { 
+			ideology = fascism 
+			popularity = 0.3 
+			}
+		}
+	}
+
+	#Focus for A State In The Shadows
+	focus = {
+		id = FRA_a_state_in_the_shadows
+		icon = GFX_goal_generic_wolf_pack
+		x = 16
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_cowled_men_strike }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas= {
+				 remove_idea = FRA_spies
+				add_idea = FRA_spies2
+			}
+		}
+	}
+
+	#Focus for Replace The Former Parties
+	focus = {
+		id = FRA_replace_the_former_parties
+		icon = GFX_goal_generic_forceful_treaty
+		x = 12
+		y = 11
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_cowled_men_strike }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			set_cosmetic_tag= FRA_CAGOULE
+		}
+	}
+
+	#Focus for Restore The Estates Of The Realm
+	focus = {
+		id = FRA_restore_the_estates_of_the_realm
+		icon = GFX_goal_support_democracy
+		x = 2
+		y = 11
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_grand_coronation }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power= 150  add_stability= 0.2
+		}
+	}
+
+	#Focus for "The Good King" Model
+	focus = {
+		id = FRA_the_good_king_model
+		icon = GFX_focus_hun_elect_a_king
+		x = 6
+		y = 11
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_grand_coronation }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_country_leader_trait= the_good_king
+			add_political_power= 50
+		}
+	}
+
+	#Focus for A New Grande Armée
+	focus = {
+		id = FRA_a_new_grande_arme
+		icon = GFX_focus_chi_army_reform
+		x = 1
+		y = 12
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_good_king_model 
+		}
+		prerequisite = { 
+			focus = FRA_restore_the_estates_of_the_realm 
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Improve Relations With The Pope
+	focus = {
+		id = FRA_improve_relations_with_the_pope
+		icon = GFX_focus_mex_restore_the_army_of_christ
+		x = 4
+		y = 12
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_good_king_model 
+		}
+		prerequisite = { 
+			focus = FRA_restore_the_estates_of_the_realm 
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_war_support= 0.05
+		}
+	}
+
+	#Focus for Prioritize The Family
+	focus = {
+		id = FRA_prioritize_the_family
+		icon = GFX_goal_generic_propaganda
+		x = 7
+		y = 12
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_good_king_model 
+		}
+		prerequisite = { 
+			focus = FRA_restore_the_estates_of_the_realm 
+		}
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Support The Carlists
+	focus = {
+		id = FRA_support_the_carlists
+		icon = GFX_focus_spa_no_compromise_on_carlist_ideals
+		x = 2
+		y = 13
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_prioritize_the_family 
+		}
+		prerequisite = { 
+			focus = FRA_improve_relations_with_the_pope 
+		}
+		prerequisite = { 
+			focus = FRA_a_new_grande_arme 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Natural Borders
+	focus = {
+		id = FRA_the_natural_borders
+		icon = GFX_focus_focus_fra_border
+		x = 6
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_prioritize_the_family 
+		}
+		prerequisite = { 
+			focus = FRA_improve_relations_with_the_pope 
+		}
+		prerequisite = { 
+			focus = FRA_a_new_grande_arme 
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_core_of= BEL
+			add_state_core= 51
+			add_state_core= 42
+			create_wargoal= { 
+				type = annex_everything 
+				target = BEL
+			}
+		}
+	}
+
+	#Focus for A Pan-Latin State
+	focus = {
+		id = FRA_a_panlatin_state
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 19
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_to_a_greater_latin_union }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Prioritize Developing France
+	focus = {
+		id = FRA_prioritize_developing_france
+		icon = GFX_goal_generic_production
+		x = 23
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_to_a_greater_latin_union }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for France Leads The Way
+	focus = {
+		id = FRA_france_leads_the_way
+		icon = GFX_goal_generic_territory_or_war
+		x = 18
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_prioritize_developing_france 
+		}
+		prerequisite = { 
+			focus = FRA_a_panlatin_state 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Quality Over Quantity
+	focus = {
+		id = FRA_quality_over_quantity
+		icon = GFX_goal_generic_military_deal
+		x = 21
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_prioritize_developing_france 
+		}
+		prerequisite = { 
+			focus = FRA_a_panlatin_state 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Corporatism For The People
+	focus = {
+		id = FRA_corporatism_for_the_people
+		icon = GFX_focus_generic_military_academy
+		x = 24
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_prioritize_developing_france 
+		}
+		prerequisite = { 
+			focus = FRA_a_panlatin_state 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Support Latinists Abroad
+	focus = {
+		id = FRA_support_latinists_abroad
+		icon = GFX_goal_generic_attack_allies
+		x = 19
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_france_leads_the_way 
+		}
+		prerequisite = { 
+			focus = FRA_quality_over_quantity 
+		}
+		prerequisite = { 
+			focus = FRA_corporatism_for_the_people 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Latin Patriotic Duty
+	focus = {
+		id = FRA_a_latin_patriotic_duty
+		icon = GFX_goal_generic_wolf_pack
+		x = 23
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_corporatism_for_the_people 
+		}
+		prerequisite = { 
+			focus = FRA_quality_over_quantity 
+		}
+		prerequisite = { 
+			focus = FRA_france_leads_the_way 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Coup In Rome
+	focus = {
+		id = FRA_a_coup_in_rome
+		icon = GFX_focus_attack_italy
+		x = 20
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_a_latin_patriotic_duty 
+		}
+		prerequisite = { 
+			focus = FRA_support_latinists_abroad 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Welcome The Wallonian Brothers
+	focus = {
+		id = FRA_welcome_the_wallonian_brothers
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		x = 22
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_a_latin_patriotic_duty 
+		}
+		prerequisite = { 
+			focus = FRA_support_latinists_abroad 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Thorn Called Alsace
+	focus = {
+		id = FRA_the_thorn_called_alsace
+		icon = GFX_focus_attack_germany
+		x = 21
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_welcome_the_wallonian_brothers 
+		}
+		prerequisite = { 
+			focus = FRA_a_coup_in_rome 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Swiss' Last Days
+	focus = {
+		id = FRA_the_swiss_last_days
+		icon = GFX_focus_attack_switzerland
+		x = 20
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_thorn_called_alsace }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Doriot, Redeemed
+	focus = {
+		id = FRA_doriot_redeemed
+		icon = GFX_focus_smiling_buddha
+		x = 22
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_thorn_called_alsace }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Statement That Shook The World
+	focus = {
+		id = FRA_the_statement_that_shook_the_world
+		icon = GFX_focus_eng_global_defense
+		x = 21
+		y = 18
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_doriot_redeemed 
+		}
+		prerequisite = { 
+			focus = FRA_the_swiss_last_days 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Emphazise French Supremacy
+	focus = {
+		id = FRA_emphazise_french_supremacy
+		icon = GFX_focus_fra_le_deluge
+		x = 29
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_for_a_greater_france }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Welfare for our Citizens
+	focus = {
+		id = FRA_welfare_for_our_citizens
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 89
+		y = 21
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_align_patriotic_industrialists }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Assemble The War Front
+	focus = {
+		id = FRA_assemble_the_war_front
+		icon = GFX_goal_generic_small_arms
+		x = 33
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_for_a_greater_france }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Legacy Of Napoleon
+	focus = {
+		id = FRA_the_legacy_of_napoleon
+		icon = GFX_focus_focus_fra_third_empire
+		x = 28
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_assemble_the_war_front 
+		}
+		prerequisite = { 
+			focus = FRA_emphazise_french_supremacy 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Mass Militarization Of French Society
+	focus = {
+		id = FRA_mass_militarization_of_french_society
+		icon = GFX_goal_generic_attack_allies
+		x = 31
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_emphazise_french_supremacy 
+		}
+		prerequisite = { 
+			focus = FRA_assemble_the_war_front 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Embrace The Military-Industrial Complex
+	focus = {
+		id = FRA_embrace_the_militaryindustrial_complex
+		icon = GFX_goal_tfv_generic_tech_sharing
+		x = 34
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_assemble_the_war_front 
+		}
+		prerequisite = { 
+			focus = FRA_emphazise_french_supremacy 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Friends Of French Interests
+	focus = {
+		id = FRA_friends_of_french_interests
+		icon = GFX_goal_generic_national_unity
+		x = 29
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_embrace_the_militaryindustrial_complex 
+		}
+		prerequisite = { 
+			focus = FRA_mass_militarization_of_french_society 
+		}
+		prerequisite = { 
+			focus = FRA_the_legacy_of_napoleon 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Exhort The Revanchist Spirit
+	focus = {
+		id = FRA_exhort_the_revanchist_spirit
+		icon = GFX_goal_generic_propaganda
+		x = 33
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_embrace_the_militaryindustrial_complex 
+		}
+		prerequisite = { 
+			focus = FRA_mass_militarization_of_french_society 
+		}
+		prerequisite = { 
+			focus = FRA_the_legacy_of_napoleon 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Begin The European Theatre
+	focus = {
+		id = FRA_begin_the_european_theatre
+		icon = GFX_focus_generic_provoke_border_clashes
+		x = 30
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_exhort_the_revanchist_spirit 
+		}
+		prerequisite = { 
+			focus = FRA_friends_of_french_interests 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Taking The Low Countries
+	focus = {
+		id = FRA_taking_the_low_countries
+		icon = GFX_focus_hol_oranje_boven
+		x = 32
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_friends_of_french_interests 
+		}
+		prerequisite = { 
+			focus = FRA_exhort_the_revanchist_spirit 
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal= { 
+				type = annex_everything 
+				target = HOL
+				}
+			  create_wargoal= { 
+				type = annex_everything 
+				target = BEL
+			}
+		}
+	}
+
+	#Focus for Crush The German State
+	focus = {
+		id = FRA_crush_the_german_state
+		icon = GFX_focus_attack_germany
+		x = 31
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_taking_the_low_countries 
+		}
+		prerequisite = { 
+			focus = FRA_begin_the_european_theatre 
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal= { 
+				type = annex_everything 
+				target = GER
+			}
+		}
+	}
+
+	#Focus for Under Doriot's Greater France
+	focus = {
+		id = FRA_under_doriots_greater_france
+		icon = GFX_focus_generic_vichy_france_triumphant_focus
+		x = 30
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_crush_the_german_state }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reestablish The Confédération Du Rhin
+	focus = {
+		id = FRA_reestablish_the_confdration_du_rhin
+		icon = GFX_goal_generic_alliance
+		x = 32
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_crush_the_german_state }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Le Grand Etat français
+	focus = {
+		id = FRA_le_grand_etat_franais
+		icon = GFX_goal_generic_demand_territory
+		x = 31
+		y = 18
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_reestablish_the_confdration_du_rhin 
+		}
+		prerequisite = { 
+			focus = FRA_under_doriots_greater_france 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			set_cosmetic_tag= FRA_GREATER_fascism
+		}
+	}
+
+	#Focus for The Ideas Of The Revolution Nationale
+	focus = {
+		id = FRA_the_ideas_of_the_revolution_nationale
+		icon = GFX_focus_focus_fra_down_marianne
+		x = 64
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_lion_of_verdun_steps_in }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Road To An Organic State
+	focus = {
+		id = FRA_the_road_to_an_organic_state
+		icon = GFX_goal_unknown ##Unfortunately, the tool could not find your icon in the game's files
+		x = 68
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_lion_of_verdun_steps_in }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Young Officers Take Over!
+	focus = {
+		id = FRA_the_young_officers_take_over
+		icon = GFX_goal_generic_demand_territory
+		x = 75
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_marchal_nous_voil }
+		mutually_exclusive = { focus = FRA_under_petains_iron_fist }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Democratization Of France
+	focus = {
+		id = FRA_the_democratization_of_france
+		icon = GFX_focus_generic_self_management
+		x = 73
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_young_officers_take_over }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Political Supremacy Of The Army
+	focus = {
+		id = FRA_political_supremacy_of_the_army
+		icon = GFX_focus_RAJ_lions_of_the_great_war
+		x = 61
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_an_army_with_a_state 
+		}
+		prerequisite = { 
+			focus = FRA_control_the_industrialists 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Market Economy under French Guidance
+	focus = {
+		id = FRA_market_economy_under_french_guidance
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 69
+		y = 19
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_redefining_french_conservatism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Promote Political Plurality
+	focus = {
+		id = FRA_promote_political_plurality
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 74
+		y = 20
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_for_the_interests_of_the_french_people 
+		}
+		prerequisite = { 
+			focus = FRA_a_secular_and_catholic_nation 
+		}
+		prerequisite = { 
+			focus = FRA_market_economy_under_french_guidance 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Ideal French Way
+	focus = {
+		id = FRA_the_ideal_french_way
+		icon = GFX_focus_chi_reach_out_to_france
+		x = 70
+		y = 22
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_our_ties_with_the_political_system 
+		}
+		prerequisite = { 
+			focus = FRA_unite_the_french_society 
+		}
+		prerequisite = { 
+			focus = FRA_undermine_the_farright_remnants 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Catholic Populist Ethos
+	focus = {
+		id = FRA_a_catholic_populist_ethos
+		icon = GFX_focus_generic_strike_at_democracy1
+		x = 83
+		y = 19
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_a_nationalist_alternative }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Putting an End to Extremism
+	focus = {
+		id = FRA_putting_an_end_to_extremism
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		x = 85
+		y = 21
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_towards_social_harmony }
 		ai_will_do = {
 			factor = 1
 		}

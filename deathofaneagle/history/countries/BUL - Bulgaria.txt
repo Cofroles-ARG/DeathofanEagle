@@ -20,13 +20,6 @@ if = { #DLC
 	#### 3D MODELS ####
 	###################
 
-	#Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
-	#BUL_communism
-	#BUL_democratic
-	#BUL_fascism
-	#BUL_neutrality
-	set_cosmetic_tag = BUL_neutrality
-
 	#IDEAS SETUP
 	add_ideas = { #DLC
 		BUL_second_national_catastrophe

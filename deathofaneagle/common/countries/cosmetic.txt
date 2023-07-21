@@ -726,6 +726,11 @@ IND_germany = {
 	color_ui = rgb { 147 130 110 }
 }
 
+VIN_britain = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+
 POL_congress = {
 	color = rgb { 153 199 130 }
 	color_ui = rgb { 153 199 130 }

@@ -1,4 +1,5 @@
 ﻿l_english:
+ PRU_prubol:0 "United States of Peru-Bolivia"
  BYZ_STRAITS:0 "Straits Commision"
  BYZ_LARP:0 "Byzantine Empire"
  CMR_germany:0 "Deutsch-Zentralafrika"
@@ -20,8 +21,10 @@
  AUS_South_German_fascism_ADJ:0 "South German"
  IND_japan:0 "Japanese Indochina"
  IND_japan_DEF:0 "Japanese Indochina"
- IND_germany:0 "German Indochina"
- IND_germany_DEF:0 "German Indochina"
+ VIN_britain:0 "British Indochina"
+ VIN_britain_DEF:0 "British Indochina"
+ IND_germany:0 "Deutsch-Indochina"
+ IND_germany_DEF:0 "Deutsch-Indochina"
  POL_congress:0 "Congress Poland"
  POL_congress_DEF:0 "Congress Kingdom of Poland"
  TOS_italy_royalism:0 "Italian Empire"

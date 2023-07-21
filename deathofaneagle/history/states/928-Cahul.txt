@@ -1,0 +1,25 @@
+state={
+	id=928
+	name="Cahul"
+
+	history={
+		owner = ROM
+		add_core_of = ROM
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		3724 3704 3701
+	}
+	manpower=211488
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=2.0 
+}

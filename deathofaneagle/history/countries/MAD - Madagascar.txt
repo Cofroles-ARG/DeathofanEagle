@@ -46,23 +46,23 @@ set_convoys = 5
 	}
 }
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = auth_democracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 21
-	reactionism = 29
-	neutrality = 50
+	democratic = 5
+	communism = 5
+	auth_democracy = 90
 }
 
 create_country_leader = {
 	
-	name = "Hermann Goering"
-	picture = "gfx//leaders//GER//Portrait_Goering_Safari.dds"
+	name = "Karl Ebermaier"
+	picture = "Portrait_Ebermaier.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = oligarchism
 	traits = {
 		#
 	}

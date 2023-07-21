@@ -65,7 +65,7 @@ set_politics = {
 	ruling_party = royalism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {
@@ -73,6 +73,14 @@ create_country_leader = {
 	picture = "Portrait_Josef.dds"
 	expire = "1965.1.1"
 	ideology = monarchism
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Andras Kun"
+	picture = "Portrait_Andras_Kun.dds"
+	expire = "1965.1.1"
+	ideology = fundamentalism
 	traits = { }
 }
 
