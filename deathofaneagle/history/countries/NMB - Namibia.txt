@@ -76,14 +76,22 @@ recruit_character = NMB_ar
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = auth_democracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 50
-	fascism = 20
+	democratic = 5
+	fascism = 0
 	communism = 5
-	neutrality = 25
+	auth_democracy = 90
+}
+
+create_country_leader = {
+	name = "Hans Huttig"
+	picture = "Portrait_Huttig.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = { }
 }

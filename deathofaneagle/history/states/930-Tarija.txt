@@ -1,0 +1,17 @@
+state={
+	id=930
+	name="Tarija"
+	provinces={
+		5229 12979 10987
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+		add_core_of = BOL
+		victory_points = { 5229 1 }
+	}
+	manpower=354550
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

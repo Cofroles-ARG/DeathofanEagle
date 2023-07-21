@@ -251,9 +251,11 @@ set_politics = {
 }
 set_popularities = {
 	royalism = 10
-	fascism = 80
+	fascism = 60
 	reactionism = 10
-	communism = 0
+	democratic = 10
+	auth_democracy = 5
+	socialist = 5
 }
 
 add_ideas = {
@@ -264,15 +266,15 @@ add_ideas = {
 }
 
 
-#Order matters here Daladier will start as leaders because added last
+
 create_country_leader = {
-	name = "Édouard Daladier"
+	name = "Louis Marin"
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "Portrait_France_Edouard_Daladier.dds"
+	picture = "Portrait_Marin.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = christian_conservative
 	traits = {
-		stout_defender
+		#
 	}
 }
 
@@ -282,6 +284,17 @@ create_country_leader = {
 	picture = "Portrait_Petain.dds"
 	expire = "1965.1.1"
 	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Leon Blum"
+	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
+	picture = "Portrait_Blum.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
 	traits = {
 		#
 	}
@@ -314,7 +327,7 @@ create_country_leader = {
 	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
 	picture = "Portrait_bucard.dds"
 	expire = "1965.1.1"
-	ideology = reactionary
+	ideology = rein_nat
 	traits = {
 		dislikes_germany
 	}
