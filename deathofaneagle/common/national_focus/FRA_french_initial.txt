@@ -7,6 +7,7 @@ focus_tree = {
 			tag = FRA
 		}
 	}
+	continuous_focus_position = { x = 200 y = 2400 }
 	#Focus for For a Social Republic
 	focus = {
 		id = FRA_for_a_social_republic
@@ -3799,6 +3800,194 @@ popularity = 0.15
 			factor = 1
 		}
 	}
-
+	
+	#Focus De Gaulle's Pres.
+	focus = {
+		id = FRA_de_gaulles_pres
+		icon = GFX_focus_generic_self_management
+		relative_position_id = FRA_announce_snap_elections
+		x = 22
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_announce_snap_elections }
+		ai_will_do = { factor = 1 }
+	}
+	#Solidify Presidential State
+	focus = {
+		id = FRA_solidify_presidental_state
+		icon = GFX_focus_generic_self_management
+		relative_position_id = FRA_de_gaulles_pres
+		x = 0
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_de_gaulles_pres }
+		ai_will_do = { factor = 1 }
+	}
+	#Under Populist Republican Ideals
+	focus = {
+		id = FRA_populist_republican_ideals
+		icon = GFX_focus_generic_self_management
+		relative_position_id = FRA_de_gaulles_pres
+		x = -4
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_de_gaulles_pres }
+		ai_will_do = { factor = 1 }
+	}
+	#For a strong state
+	focus = {
+		id = FRA_for_a_strong_state
+		icon = GFX_focus_generic_self_management
+		relative_position_id = FRA_de_gaulles_pres
+		x = 4
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_de_gaulles_pres }
+		ai_will_do = { factor = 1 }
+	}
+	#Uphold French Culture
+	focus = {
+		id = FRA_uphold_french_culture
+		icon = GFX_focus_generic_self_management
+		relative_position_id = FRA_populist_republican_ideals
+		x = -2
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_populist_republican_ideals }
+		ai_will_do = { factor = 1 }
+	}
+	#Patriotic Obligation
+	focus = {
+		id = FRA_patriotic_obligation
+		icon = GFX_focus_generic_self_management
+		relative_position_id = FRA_populist_republican_ideals
+		x = 2
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_populist_republican_ideals }
+		ai_will_do = { factor = 1 }
+	}
+	#Inspire Patriotic Mythos
+	focus = {
+		id = FRA_inspire_patriotic_mythos
+		icon = GFX_focus_generic_self_management
+		relative_position_id = FRA_uphold_french_culture
+		x = 0
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_uphold_french_culture }
+		prerequisite = { focus = FRA_patriotic_obligation }
+		ai_will_do = { factor = 1 }
+	}
+	#National Solidarity & Unity
+	focus = {
+		id = FRA_value_national_unity
+		icon = GFX_focus_generic_self_management
+		relative_position_id = FRA_patriotic_obligation
+		x = 0
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_uphold_french_culture }
+		prerequisite = { focus = FRA_patriotic_obligation }
+		ai_will_do = { factor = 1 }
+	}
+	#Enforce Gaullist Principles
+	focus = {
+		id = FRA_enforce_gaullist_principles
+		icon = GFX_focus_generic_self_management
+		relative_position_id = FRA_value_national_unity
+		x = -2
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_value_national_unity }
+		prerequisite = { focus = FRA_inspire_patriotic_mythos }
+		ai_will_do = { factor = 1 }
+	}
+	#French Republic Undivided
+	focus = {
+		id = FRA_republic_undivided
+		icon = GFX_focus_generic_self_management
+		relative_position_id = FRA_for_a_strong_state
+		x = -2
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_for_a_strong_state }
+		ai_will_do = { factor = 1 }
+	}
+	#Towards a Popular Economy
+	focus = {
+		id = FRA_towards_popular_economy
+		icon = GFX_focus_generic_self_management
+		relative_position_id = FRA_for_a_strong_state
+		x = 2
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_for_a_strong_state }
+		ai_will_do = { factor = 1 }
+	}
+	#Strike at Extremist Dissent
+	focus = {
+		id = FRA_strike_extremist_dissent
+		icon = GFX_focus_generic_self_management
+		relative_position_id = FRA_republic_undivided
+		x = 0
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_republic_undivided }
+		prerequisite = { focus = FRA_towards_popular_economy }
+		ai_will_do = { factor = 1 }
+	}
+	#Promote French Exceptionalism
+	focus = {
+		id = FRA_promote_exceptionalism
+		icon = GFX_focus_generic_self_management
+		relative_position_id = FRA_towards_popular_economy
+		x = 0
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_republic_undivided }
+		prerequisite = { focus = FRA_towards_popular_economy }
+		ai_will_do = { factor = 1 }
+	}
+	#Securing Our New Democracy
+	focus = {
+		id = FRA_securing_our_new_democracy
+		icon = GFX_focus_generic_self_management
+		relative_position_id = FRA_strike_extremist_dissent
+		x = 2
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_strike_extremist_dissent }
+		prerequisite = { focus = FRA_promote_exceptionalism }
+		ai_will_do = { factor = 1 }
+	}
+	#Under the Gaullist Republic
+	focus = {
+		id = FRA_gaullist_republic
+		icon = GFX_focus_generic_self_management
+		relative_position_id = FRA_solidify_presidental_state
+		x = 0
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_enforce_gaullist_principles }
+		prerequisite = { focus = FRA_solidify_presidental_state }
+		prerequisite = { focus = FRA_securing_our_new_democracy }
+		ai_will_do = { factor = 1 }
+	}
+}
 #End of focuses 
- }
