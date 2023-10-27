@@ -1,0 +1,27 @@
+state={
+	id=949
+	name="Central Eastern Macedonia"
+
+	history={
+		owner = BYZ
+		add_core_of = BYZ
+		add_core_of = BUL
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		3936 6990 3526
+	}
+	manpower=111488
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=2.0 
+}

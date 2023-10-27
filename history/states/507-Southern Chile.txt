@@ -1,0 +1,26 @@
+
+state={
+	id=507
+	name="Araucania" # Magallanes
+	manpower = 68693
+	
+	state_category = pastoral
+
+	history={
+		owner = PAT
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			12920 5 
+		}
+		add_core_of = CHL
+		add_core_of = PAT
+	}
+
+	provinces={
+		2161 5118 5159 5121 5169 5201 5209 5215 8198 8218 8913 10961 12954 12920
+	}
+
+	local_supplies=0.0 
+}

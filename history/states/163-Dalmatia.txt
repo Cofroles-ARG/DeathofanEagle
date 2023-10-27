@@ -1,0 +1,33 @@
+state = {
+	id = 163
+	name = "Dalmatia"
+	manpower = 180000
+	
+	state_category = large_town
+	
+	history = {
+		owner = SER
+		victory_points = { #Zara/Zadar
+			3943 5 
+		}
+		victory_points = { #Dubrovnik
+			6889 3 
+		}
+		victory_points = { #Split
+			3924 3
+		}
+		buildings = {
+			infrastructure = 3 #was: 5
+			3943 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = CRO
+		add_core_of = SER
+	}
+	provinces = {	
+		3943 3868 3974 3924 11816 6889
+	}
+
+	local_supplies = 0.0 
+}

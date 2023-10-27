@@ -1,0 +1,24 @@
+ideas = {
+	country = {
+
+		MON_regency = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				stability_factor = 0.1
+				royalism_drift = 0.1
+			}
+
+			picture = GFX_MON_regency
+			
+			removal_cost = -1
+		}
+
+}

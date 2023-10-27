@@ -1,0 +1,201 @@
+bookmarks = {
+	bookmark = {
+		name = GATHERING_STORM_NAME
+		desc = GATHERING_STORM_DESC
+		date = 1936.1.1.12
+		picture = GFX_select_date_1936
+		default = yes
+		default_country = HUN
+		
+		HUN = {
+			history = HUN_GATHERING_STORM_DESC
+			ideology = democratic
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		FRA = {
+			history = FRA_GATHERING_STORM_DESC
+			ideology = fascism
+			ideas = {
+				FRA_disjointed_government
+			}
+			focuses = {
+				FRA_montjoie_saint_denis
+				FRA_getting_ready_for_the_struggle
+				FRA_conquer_the_power 
+			}
+		}
+		ENG = {
+			history = ENG_GATHERING_STORM_DESC
+			ideology = democratic
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		ITA = {
+			history = ITA_GATHERING_STORM_DESC
+			ideology = fascism
+			ideas = {
+				#
+			}	
+			focuses = {
+				#
+			}		
+		}
+		USA = {
+			history = USA_GATHERING_STORM_DESC
+			ideology = democratic
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		GER = {
+			history = GER_GATHERING_STORM_DESC
+			ideology = royalism
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		SOV = {
+			history = SOV_GATHERING_STORM_DESC
+			ideology = neutrality
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}	
+		}
+		"---" = {
+			history = OTHER_GATHERING_STORM_DESC
+		}
+
+		PRE = {
+			minor = yes
+			history = PRE_GATHERING_STORM_DESC
+			ideology = royalism
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		SPR = {
+			minor = yes
+			history = SPR_GATHERING_STORM_DESC
+			ideology = democratic
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		POL = {
+			minor = yes
+			history = POL_GATHERING_STORM_DESC
+			ideology = democratic
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		MAN = {
+			minor = yes
+			history = CHINA_TEMPLATE_BOOKMARK_DESC
+			ideology = democratic
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		RCH = {
+			minor = yes
+			history = CHINA_TEMPLATE_BOOKMARK_DESC
+			ideology = democratic
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		ANH = {
+			minor = yes
+			history = CHINA_TEMPLATE_BOOKMARK_DESC
+			ideology = democratic
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		GMJ = {
+			minor = yes
+			history = CHINA_TEMPLATE_BOOKMARK_DESC
+			ideology = democratic
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		CHI = {
+			minor = yes
+			history = CHINA_TEMPLATE_BOOKMARK_DESC
+			ideology = democratic
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		PRC = {
+			minor = yes
+			history = CHINA_TEMPLATE_BOOKMARK_DESC
+			ideology = democratic
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		GND = {
+			minor = yes
+			history = CHINA_TEMPLATE_BOOKMARK_DESC
+			ideology = democratic
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+
+		effect = {
+			randomize_weather = 12345
+		}
+	}
+}

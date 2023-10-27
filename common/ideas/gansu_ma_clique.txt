@@ -1,0 +1,22 @@
+ideas = {
+	country = {
+		the_ma_family = {
+	
+			picture = Ma_Clique_Flag
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				cavalry_attack_factor = 0.2
+				stability_factor = 0.1
+		}
+	}
+}

@@ -1,0 +1,421 @@
+spriteTypes = { 
+	##Icon For: Montjoie Saint Denis!
+	SpriteType = { 
+		name = "GFX_FRA_montjoie_saint_denis-138775"
+		texturefile = "gfx/interface/goals/GFX_FRA_montjoie_saint_denis-138775.dds"
+	}
+
+	##Icon Shine For: Montjoie Saint Denis!
+	SpriteType = { 
+		name = "GFX_FRA_montjoie_saint_denis-138775_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_montjoie_saint_denis-138775.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_montjoie_saint_denis-138775.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_montjoie_saint_denis-138775.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Getting Ready For The Struggle
+	SpriteType = { 
+		name = "GFX_FRA_getting_ready_for_the_struggle-138776"
+		texturefile = "gfx/interface/goals/GFX_FRA_getting_ready_for_the_struggle-138776.dds"
+	}
+
+	##Icon Shine For: Getting Ready For The Struggle
+	SpriteType = { 
+		name = "GFX_FRA_getting_ready_for_the_struggle-138776_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_getting_ready_for_the_struggle-138776.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_getting_ready_for_the_struggle-138776.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_getting_ready_for_the_struggle-138776.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Conquer The Power
+	SpriteType = { 
+		name = "GFX_FRA_conquer_the_power-138777"
+		texturefile = "gfx/interface/goals/GFX_FRA_conquer_the_power-138777.dds"
+	}
+
+	##Icon Shine For: Conquer The Power
+	SpriteType = { 
+		name = "GFX_FRA_conquer_the_power-138777_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_conquer_the_power-138777.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_conquer_the_power-138777.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_conquer_the_power-138777.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: All Ready...
+	SpriteType = { 
+		name = "GFX_FRA_all_ready-138781"
+		texturefile = "gfx/interface/goals/GFX_FRA_all_ready-138781.dds"
+	}
+
+	##Icon Shine For: All Ready...
+	SpriteType = { 
+		name = "GFX_FRA_all_ready-138781_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_all_ready-138781.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_all_ready-138781.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_all_ready-138781.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Speak With Foreign Ideologues
+	SpriteType = { 
+		name = "GFX_FRA_speak_with_foreign_ideologues-138782"
+		texturefile = "gfx/interface/goals/GFX_FRA_speak_with_foreign_ideologues-138782.dds"
+	}
+
+	##Icon Shine For: Speak With Foreign Ideologues
+	SpriteType = { 
+		name = "GFX_FRA_speak_with_foreign_ideologues-138782_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_speak_with_foreign_ideologues-138782.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_speak_with_foreign_ideologues-138782.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_speak_with_foreign_ideologues-138782.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Everything Set...
+	SpriteType = { 
+		name = "GFX_FRA_everything_set-138801"
+		texturefile = "gfx/interface/goals/GFX_FRA_everything_set-138801.dds"
+	}
+
+	##Icon Shine For: Everything Set...
+	SpriteType = { 
+		name = "GFX_FRA_everything_set-138801_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_everything_set-138801.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_everything_set-138801.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_everything_set-138801.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Denounce Doriot
+	SpriteType = { 
+		name = "GFX_FRA_denounce_doriot-138802"
+		texturefile = "gfx/interface/goals/GFX_FRA_denounce_doriot-138802.dds"
+	}
+
+	##Icon Shine For: Denounce Doriot
+	SpriteType = { 
+		name = "GFX_FRA_denounce_doriot-138802_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_denounce_doriot-138802.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_denounce_doriot-138802.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_denounce_doriot-138802.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Boost Anti-German Sentiment
+	SpriteType = { 
+		name = "GFX_FRA_boost_antigerman_sentiment-138818"
+		texturefile = "gfx/interface/goals/GFX_FRA_boost_antigerman_sentiment-138818.dds"
+	}
+
+	##Icon Shine For: Boost Anti-German Sentiment
+	SpriteType = { 
+		name = "GFX_FRA_boost_antigerman_sentiment-138818_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_boost_antigerman_sentiment-138818.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_boost_antigerman_sentiment-138818.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_boost_antigerman_sentiment-138818.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Get The Milice On Our Side
+	SpriteType = { 
+		name = "GFX_FRA_get_the_milice_on_our_side-138819"
+		texturefile = "gfx/interface/goals/GFX_FRA_get_the_milice_on_our_side-138819.dds"
+	}
+
+	##Icon Shine For: Get The Milice On Our Side
+	SpriteType = { 
+		name = "GFX_FRA_get_the_milice_on_our_side-138819_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_get_the_milice_on_our_side-138819.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_get_the_milice_on_our_side-138819.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_get_the_milice_on_our_side-138819.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Let's Go!
+	SpriteType = { 
+		name = "GFX_FRA_lets_go-138820"
+		texturefile = "gfx/interface/goals/GFX_FRA_lets_go-138820.dds"
+	}
+
+	##Icon Shine For: Let's Go!
+	SpriteType = { 
+		name = "GFX_FRA_lets_go-138820_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_lets_go-138820.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_lets_go-138820.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_lets_go-138820.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 1937 Front De La Liberté Summit
+	SpriteType = { 
+		name = "GFX_FRA_1937_front_de_la_libert_summit-138821"
+		texturefile = "gfx/interface/goals/GFX_FRA_1937_front_de_la_libert_summit-138821.dds"
+	}
+
+	##Icon Shine For: 1937 Front De La Liberté Summit
+	SpriteType = { 
+		name = "GFX_FRA_1937_front_de_la_libert_summit-138821_shine"
+		texturefile = "gfx/interface/goals/GFX_FRA_1937_front_de_la_libert_summit-138821.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_1937_front_de_la_libert_summit-138821.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_FRA_1937_front_de_la_libert_summit-138821.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+ 
+ }

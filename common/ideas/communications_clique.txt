@@ -1,0 +1,48 @@
+ideas = {
+
+	country = {
+
+		GND_ministeries = {
+
+			picture = controlled_ministry_guandong
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.1
+				stability_factor = 0.1
+				political_advisor_cost_factor = -0.25
+				trade_laws_cost_factor = -0.25
+				mobilization_laws_cost_factor = -0.25
+		}
+	}
+
+		GND_a_lot_of_mercs = {
+
+			picture = GND_mecenaries
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = -0.2
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
+		}
+	}
+}

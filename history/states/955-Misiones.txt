@@ -1,0 +1,15 @@
+state={
+	id=955
+	name="Misiones"
+	provinces={
+		11007 12466
+	}
+	history = {
+		owner = ARG
+		add_core_of = ARG
+	}
+	manpower=234550
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

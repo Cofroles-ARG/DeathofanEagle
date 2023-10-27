@@ -1,0 +1,28 @@
+state={
+	id=941
+	name="Limburg"
+	manpower = 348718
+	state_category = city
+
+	history={
+		owner = GER
+		add_core_of = GER
+		add_core_of = HOL
+		
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			11562 1 
+		}
+
+	}
+
+	provinces={
+		11562 
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

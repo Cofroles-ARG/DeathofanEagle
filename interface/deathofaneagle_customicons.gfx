@@ -1,0 +1,33 @@
+spriteTypes = { 
+	##Icon For: Maygarization of Transylvania Failed!
+	SpriteType = { 
+		name = "maygarization_of_transylvania_failed-114150"
+		texturefile = "gfx/interface/event_gfx/maygarization_of_transylvania_failed-114150.dds"
+	}
+
+	##Icon For: Maygarization of Transylvania Successful!
+	SpriteType = { 
+		name = "maygarization_of_transylvania_successful-114151"
+		texturefile = "gfx/interface/event_gfx/maygarization_of_transylvania_successful-114151.dds"
+	}
+
+	##Icon For: Maygarization of Dalmatia Failed!
+	SpriteType = { 
+		name = "maygarization_of_dalmatia_failed-114152"
+		texturefile = "gfx/interface/event_gfx/maygarization_of_dalmatia_failed-114152.dds"
+	}
+
+	##Icon For: Maygarization of Dalmatia Successful!
+	SpriteType = { 
+		name = "maygarization_of_dalmatia_successful-114152"
+		texturefile = "gfx/interface/event_gfx/maygarization_of_dalmatia_successful-114152.dds"
+	}
+
+	##Icon For: The Freedom Front
+	SpriteType = { 
+		name = "the_freedom_front-114636"
+		texturefile = "gfx/interface/event_gfx/the_freedom_front-114636.dds"
+	}
+
+ 
+ }

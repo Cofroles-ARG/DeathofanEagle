@@ -1,0 +1,51 @@
+add_namespace = deathofaneagle
+
+##Event: Victory on the border war!
+country_event = {
+	id = deathofaneagle.1
+	title = deathofaneagle.1.title
+	desc = deathofaneagle.1.desc
+	picture = GFX_report_event_spr_carlists
+	is_triggered_only = yes
+	trigger = {
+		original_tag= AUS
+	}
+	option = {
+		name = deathofaneagle.1.a
+		ai_chance = { factor = 1}
+		BAY = {transfer_state= 54  transfer_state= 53  transfer_state= 52   }
+		WUR = {transfer_state= 50   }
+	}
+}
+##Event: Defeat on the Border War!
+country_event = {
+	id = deathofaneagle.2
+	title = deathofaneagle.2.title
+	desc = deathofaneagle.2.desc
+	picture = GFX_report_event_german_troops
+	is_triggered_only = yes
+	trigger = {
+		original_tag= AUS
+	}
+	option = {
+		name = deathofaneagle.2.a
+		ai_chance = { factor = 1}
+		add_stability= -0.05  add_political_power= -100
+	}
+}
+##Event: Failsave!
+country_event = {
+	id = deathofaneagle.3
+	title = deathofaneagle.3.title
+	desc = deathofaneagle.3.desc
+	picture = GFX_report_event_yugoslavian_cavalry
+	is_triggered_only = yes
+	trigger = {
+		original_tag= AUS
+	}
+	option = {
+		name = deathofaneagle.3.a
+		ai_chance = { factor = 1}
+		add_political_power= -1
+	}
+}

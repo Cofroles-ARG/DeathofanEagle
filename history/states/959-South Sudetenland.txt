@@ -1,0 +1,22 @@
+state={
+	id=959
+	name="South Sudetenland"
+	provinces={
+		557 11525 543 5283 7857
+	}
+	history = {
+		owner = GER
+		add_core_of = AUS
+		add_core_of = GER
+		victory_points = { 
+			4196 3 
+		}
+		victory_points = { 
+			7071 1 
+		}
+	}
+	manpower=224550
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

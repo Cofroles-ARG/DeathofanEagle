@@ -1,0 +1,25 @@
+state={
+	id=942
+	name="Eupen"
+	manpower = 498718
+	state_category = city
+
+	history={
+		owner = GER
+		add_core_of = GER
+		add_core_of = BEL
+		
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		3488 
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

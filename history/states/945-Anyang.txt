@@ -1,0 +1,25 @@
+state={
+	id=945
+	name="Anyang"
+
+	history={
+		owner = RCH
+		add_core_of = RCH
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		7074 4144 4114 1139 4606
+	}
+	manpower=41600
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=2.0 
+}

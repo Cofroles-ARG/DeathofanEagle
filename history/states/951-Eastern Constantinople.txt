@@ -1,0 +1,25 @@
+state={
+	id=951
+	name="Eastern Constantinople"
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		11829
+	}
+	manpower=711888
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=2.0 
+}

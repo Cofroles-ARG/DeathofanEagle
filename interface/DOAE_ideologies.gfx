@@ -1,0 +1,22 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_ideology_royalism_group"
+        texturefile = "gfx//interface//ideologies//royalism_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_socialist_group"
+        texturefile = "gfx//interface//ideologies//socialist_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_reactionism_group"
+        texturefile = "gfx//interface//ideologies//reactionism_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_auth_democracy_group"
+        texturefile = "gfx//interface//ideologies//auth_democracy_group.dds"
+    }
+    spriteType = {
+        name = "GFX_ideology_lib_democracy_group"
+        texturefile = "gfx//interface//ideologies//lib_democracy_group.dds"
+    }
+}

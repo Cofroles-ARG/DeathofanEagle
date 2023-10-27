@@ -1,0 +1,22 @@
+state={
+	id=960
+	name="Gando"
+	provinces={
+		861 11823 3929 944
+	}
+	history = {
+		owner = KOR
+		add_core_of = MAN
+		add_core_of = KOR
+		victory_points = { 
+			4196 3 
+		}
+		victory_points = { 
+			7071 1 
+		}
+	}
+	manpower=1045050
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
